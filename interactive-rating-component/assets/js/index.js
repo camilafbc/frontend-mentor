@@ -3,7 +3,7 @@ const submitBtn = document.getElementById("submit")
 
 const content = document.querySelector(".content")
 const container = document.querySelector(".container")
-const valueEntry = document.querySelector(".value-entry")
+
 let btnValue = ""
 
 valueBtn.forEach((button) => {
@@ -23,7 +23,7 @@ submitBtn.addEventListener('click', function(){
 function newContainer(){
     return`
     <div class="second-container">
-      <img src="assets/img/illustration-thank-you.svg" alt="">
+      <img src="assets/img/illustration-thank-you.svg" alt="phone">
       <div class="select-text">
         <p>You selected ${btnValue} out of 5</p>
       </div>
