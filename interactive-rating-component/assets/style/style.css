@@ -1,0 +1,131 @@
+@import 'https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216deg, 12%, 8%);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 320px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: hsl(213deg, 19%, 18%);
+}
+
+.container {
+  padding: 0 0.5rem 1rem;
+}
+.container img {
+  width: 30px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: hsl(216deg, 12%, 24%);
+}
+.container h3 {
+  margin: 0.75rem 0;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+.container p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: hsl(217deg, 12%, 63%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem 0;
+}
+.buttons input[type=button] {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(216deg, 12%, 24%);
+  color: hsl(217deg, 12%, 63%);
+  cursor: pointer;
+}
+.buttons input[type=button]:hover {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: bold;
+  scale: 1.1;
+  transition: 0.4s;
+}
+.buttons input[type=button]:focus {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: bold;
+  scale: 1.1;
+  transition: 0.4s;
+}
+
+#submit {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 1rem;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 1rem;
+}
+.second-container img {
+  width: 125px;
+}
+
+.select-text p {
+  font-size: 12px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  background-color: hsl(216deg, 12%, 24%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+.second-container-text {
+  text-align: center;
+}
+.second-container-text h3 {
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+.second-container-text p {
+  margin-top: 0.5rem;
+  font-weight: 400;
+  font-size: 14px;
+  color: hsl(217deg, 12%, 63%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
