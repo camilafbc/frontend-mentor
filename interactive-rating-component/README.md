@@ -6,7 +6,7 @@
 
 Componente de classificação interativa proposto como desafio pelo Frontend Mentor.
 
-👉 [ACESSAR]()
+👉 [ACESSAR](https://frontend-mentor-camilafbc.vercel.app/)
 
 ## Conceitos trabalhados:
 
