@@ -2,11 +2,99 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: $Dark-Blue;
     font-family: 'Manrope', sans-serif;
+    background-color: $dark-blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    min-height: 300px;
+    width: 90%;
+    padding: 2rem 0 1rem;
+    position: relative;
 }
 
 .advice-box{
-    background-color: $Grayish-Blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    background-color: $dark-grayis-blue;
+
+    span{
+        font-size: 0.75rem;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: $neon-green;
+    }
+
+    p{
+        width: 295px;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-align: center;
+        color: $light-cyan;
+    }
+}
+
+.patterns-divider{
+    margin-bottom: 2rem;
+    width: 295px;
+}
+
+.btn-container{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: $neon-green;
+
+    img{
+        width: 20px;
+    }
+
+    &:hover{
+        box-shadow: 0 0 20px hsl(150deg, 100%, 66%);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+}
+
+// RESPONSIVIDADE 
+
+@media(min-width: 580px){
+    .container{
+        width: 550px;
+    }
+
+    .advice-box{
+        p{
+            width: 444px;
+        }
+    }
+
+    .patterns-divider{
+        width: 444px;
+    }
 }
