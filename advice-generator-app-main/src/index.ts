@@ -1,4 +1,3 @@
-const container: HTMLElement = document.querySelector(".container")
 const idEntry = document.getElementById("id-entry")
 const adviceEntry = document.getElementById("advice-entry")
 

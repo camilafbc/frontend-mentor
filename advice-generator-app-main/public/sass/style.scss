@@ -18,7 +18,7 @@ body{
     height: 100vh;
 }
 
-.container{
+main{
     min-height: 300px;
     width: 90%;
     padding: 2rem 0 1rem;
@@ -84,7 +84,7 @@ body{
 // RESPONSIVIDADE 
 
 @media(min-width: 580px){
-    .container{
+    main{
         width: 550px;
     }
 
